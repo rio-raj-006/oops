@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class Maain{
 public static void main(String[] args){
-// edited by sanjay
+// edited by sanjay in new branch
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the length :");
         int l=s.nextInt();
