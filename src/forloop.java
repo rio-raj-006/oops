@@ -11,5 +11,10 @@ public class forloop {
             a=a-2;
             System.out.println("#");
         }
+        do {                       // the difference between the normal loop and do-while loop is
+            System.out.println("@");   //the do-while loop executes the statements first and then checks the condition
+            a=a-2;          // but,In While-loop the condition is checked first and then the statements executes.
+        }
+        while (a>0);
     }
 }
