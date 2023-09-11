@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class automorphic {
     public static void main(String[] args){
         Scanner s=new Scanner(System.in);
-        System.out.println("enter the number: ");
+        System.err.println("enter the number: ");
         int a=s.nextInt();
         int b=a*a;
         int r=0;
@@ -25,7 +25,7 @@ public class automorphic {
             c=c/10;
         }
         if(bal==a){
-            System.out.println("Yes");
+            System.err.println("Yes");
         }
         else {
             System.out.println("no" );
