@@ -5,21 +5,21 @@ public class userDefined {
             trynumber(a);
             System.out.println("the number is above 18");
         }
-        catch (CustomException e){
+        catch (newCustomException e){
             System.out.println(e.getLocalizedMessage());
         }
     }
-    public static void trynumber(int a)throws CustomException{
+    public static void trynumber(int a)throws newCustomException {
         if (a<18){
-            throw new CustomException("the number is below 18");
+            throw new newCustomException("the number is below 18");
         }
     }
 }
-class CustomException extends java.lang.Exception {
-    public CustomException(){
+class newCustomException extends java.lang.Exception {
+    public newCustomException(){
         super();
     }
-    public CustomException(String a){
+    public newCustomException(String a){
         super(a);
     }
 }
