@@ -18,5 +18,9 @@ public class TreesetConcepts {
         System.out.println(bala.descendingSet());
         System.out.println(bala.first());
         System.out.println(bala.size());
+        System.out.println("Is empty " +bala.isEmpty());
+        System.out.println("returns the lower elements than the given elements - "+bala.headSet("c"));
+        System.out.println("returns the first element - "+bala.pollFirst());
+        System.out.println("returns the last elements - "+bala.pollLast());
     }
 }
