@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class HashmapConcepts {
+    static int a=10;
     public static void main(String[] args) {
         Map<String, String> data =new HashMap<>();
         data.put("19EC074","bharani");        // map does not allow duplicate key, so this value does not mapped.
