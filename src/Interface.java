@@ -21,4 +21,12 @@ class test1 implements test{    // class implements the interface
     public void run() {           // overriding the abstract (run) method of the interface
         System.out.println("I'm running");
     }
+
+    @Override
+    public void sleep() {
+        System.out.println("ddsfvf");
+    }
+//    public static void walk(){
+//        System.out.println("fjj bvjdbdjf");
+//    }
 }
